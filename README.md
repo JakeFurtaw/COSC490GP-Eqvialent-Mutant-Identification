@@ -1,5 +1,5 @@
 # Automatic Equivalent Mutant Identification
-We will be using creating an AST based neural network model that will automatically detect equivalent mutants in a dataset.
+We will be creating an AST based neural network model that will automatically detect equivalent mutants in a dataset.
 The program and model will have the following functionality:
 - Convert dataset into ASTs
 - Sort which mutants are equivalent or not
