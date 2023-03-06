@@ -1,16 +1,20 @@
-#Description of Project:
+# Automatica Equivalent Mutant Identification
+We will be using creating an AST based neural network model that will automatically detect equivalent mutants in a dataset.
+The program and model will have the following functionality:
+- Convert dataset into ASTs
+- Sort which mutants are equivalent or not
+- Feed dataset to be trained by the neural network
+- Provide analysis to detemine success of the model
 
-Automatic Equivalent Mutant Identification using An Abtract Syntax Tree based Nueral Network Model.
-For this project we are using python to create a Neural Network that will traverse our code and sort out which mutants are equivalent and which arent automatically. We will use a ASTNN to do the sorting and identification. After the model is written we will split the dataset 80% for training and 20% for testing.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Resources Used:
+**Dataset used** : https://b2share.eudat.eu/records/fd8e674385214fe9a327941525c31f53
 
-Python Libraries we used:
+# Libraries
+The following libraries will be used:
+```
 https://pytorch.org/
 https://pandas.pydata.org/
 https://github.com/eliben/pycparser
 https://pypi.org/project/gensim/
 https://scikit-learn.org/stable/
 
-Dataset used in the Project:
-https://b2share.eudat.eu/records/fd8e674385214fe9a327941525c31f53
+```
