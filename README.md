@@ -9,12 +9,10 @@ The program and model will have the following functionality:
 **Dataset used** : https://b2share.eudat.eu/records/fd8e674385214fe9a327941525c31f53
 
 # Libraries
-The following libraries will be used:
 ```
 https://pytorch.org/
 https://pandas.pydata.org/
 https://github.com/eliben/pycparser
 https://pypi.org/project/gensim/
 https://scikit-learn.org/stable/
-
 ```
