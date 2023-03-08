@@ -1,15 +1,20 @@
+import os
+
+
+curDirec = os.getcwd()
+dataset = os.path.join(curDirec, "dataset.ttl")
+cDataset = os.path.join(curDirec,"cCodeDataset.ttl")
+javaDataset = os.path.join(curDirec,"javaCodeDataset.ttl")
+
+
+# initialize variables to hold the text segments
 startSegment = "<mb"
 cEndSegment = ".c> ."
 javaEndSegment = ".java> ."
-dataSet = "dataset.ttl"
-cDataset = "cCodeDataset.ttl"
-javaDataset = "javaCodeDataset.ttl"
-
-# initialize variables to hold the text segments
 segment_1 = ""
 segment_2 = ""
 
-with open(dataSet, "r") as f:
+with open(dataset, "r") as f:
     for line in f:
         if (line.startswith(startSegment) & line.endswith(cEndSegment)):
             # add segment 1 to the C Output file
