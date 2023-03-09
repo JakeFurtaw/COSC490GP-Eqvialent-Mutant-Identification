@@ -1,7 +1,7 @@
 # Automatic Equivalent Mutant Identification
 We will be creating an AST based neural network model that will automatically detect equivalent mutants in a dataset.
 The program and model will have the following functionality:
-- Process dataset to sort java and c programs
+- ✓ Process dataset to sort java and c programs
 - Parse dataset with java and c parsers
 - Feed parsed data into neural network to train it
 - Use remaining data to test the neural network
