@@ -8,7 +8,8 @@ The program and model will have the following functionality:
 - Compute data results using numpy 
 - Provide analysis to detemine success of the model
 
-**Dataset used** : https://b2share.eudat.eu/records/fd8e674385214fe9a327941525c31f53
+# Dataset used 
+- https://b2share.eudat.eu/records/fd8e674385214fe9a327941525c31f53
 
 # Libraries
 ```
