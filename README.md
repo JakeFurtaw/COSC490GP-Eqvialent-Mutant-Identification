@@ -13,6 +13,7 @@ The program and model will have the following functionality:
 https://pytorch.org/
 https://pandas.pydata.org/
 https://github.com/eliben/pycparser
+https://pypi.org/project/javalang/
 https://pypi.org/project/gensim/
 https://scikit-learn.org/stable/
 ```
