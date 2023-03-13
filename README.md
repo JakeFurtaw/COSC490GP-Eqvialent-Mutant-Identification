@@ -14,6 +14,7 @@ The program and model will have the following functionality:
 # Libraries
 ```
 https://pytorch.org/
+https://code2vec.org/
 https://pandas.pydata.org/
 https://github.com/eliben/pycparser
 https://pypi.org/project/javalang/
