@@ -10,4 +10,5 @@ class Mutant:
         self.difference = difference
 
     def get_mutated_code(self):
+        
         return 

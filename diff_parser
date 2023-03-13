@@ -1,0 +1,15 @@
+from globals import *
+
+class UnifiedDiffParser:
+    def __init__(self, program=None, difference=None):
+        self.program = program
+        self.difference = difference
+        self.diff_before = None
+        self.diff_after = None
+        self.line_before = None
+        self.line_after = None
+
+
+    def parse_diff():
+
+        return
