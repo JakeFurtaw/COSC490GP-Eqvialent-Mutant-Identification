@@ -1,7 +1,7 @@
 import rdflib
 import json
 from globals import *
-from mutant import Mutant
+from Mutant import Mutant
 from diff_parser import UnifiedDiffParser
 from convert_to_ast import convert_java, convert_c
 
